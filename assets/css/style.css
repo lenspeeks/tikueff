@@ -30,7 +30,7 @@ hr {
 }
 .nav-wrapper .nav .logo {
     display: flex;
-    height: 7rem;
+    height: 10rem;
 }
 .nav-wrapper .nav .menu {
     display: flex;
@@ -93,6 +93,7 @@ hr {
     padding: 1rem;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-top: 1rem;
     text-decoration: none;
     border-radius: 5px;
     transition: .4s ease;
