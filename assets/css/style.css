@@ -10,6 +10,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    background-color: #fcfcfc;
+}
+
+hr {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
 .nav-wrapper {
@@ -34,6 +40,8 @@ body {
 .nav-wrapper .nav .menu .link {
     color: black;
     text-decoration: none;
+    font-weight: 700;
+    transition: color .4s ease;
 }
 .nav-wrapper .nav .menu .link:hover {
     color: #F54D2A;
@@ -59,4 +67,49 @@ body {
     background-color: #D5D7D4;
     border-radius: 5px;
     padding: 1rem;
+}
+
+.event-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.event-wrapper .events {
+    background-color: #DFBE8B;
+    border-radius: 5px;
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: clamp(300px, 80%, 1300px);
+    gap: 2rem;
+}
+.event-wrapper .events .box {
+    padding: 1rem;
+}
+
+.event-wrapper .events .box a {
+    background:#D5D7D4;
+    color: black;
+    padding: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: .4s ease;
+}
+.event-wrapper .events .box a:hover {
+    background-color: #F54D2A;
+    color: #D5D7D4;
+}
+
+.footer-wrapper {
+    position: static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #D5D7D4;
+    text-align: center;
 }
