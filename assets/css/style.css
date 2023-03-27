@@ -18,6 +18,18 @@ hr {
     border-radius: 5px;
 }
 
+.footer-wrapper {
+    position: static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #D5D7D4;
+    text-align: center;
+}
+
 .nav-wrapper {
     margin-top: 2rem;
 }
@@ -46,6 +58,11 @@ hr {
 .nav-wrapper .nav .menu .link:hover {
     color: #F54D2A;
     fill: #F54D2A;
+}
+.nav-wrapper .nav .menu .link-selected {
+    color: #F54D2A;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 .container-wrapper {
@@ -105,14 +122,26 @@ hr {
     color: #D5D7D4;
 }
 
-.footer-wrapper {
-    position: static;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin-top: 2rem;
-    width: 100%;
-    padding: 0.5rem;
+/*Om Oss*/
+.about-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.about-wrapper .about {
+    background-color: #F54D2A;
+    border-radius: 5px;
+    padding: 1rem;
+    color:white;
+    width: clamp(300px, 80%, 1300px);
+    gap: 2rem;
+}
+
+.ledamot-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.ledamoter {
     background-color: #D5D7D4;
-    text-align: center;
+    border-radius: 5px;
+    padding: 1rem;
 }
