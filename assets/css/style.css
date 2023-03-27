@@ -14,7 +14,7 @@ body {
 }
 
 hr {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(108, 108, 108);
     border-radius: 5px;
 }
 
@@ -135,13 +135,21 @@ hr {
     width: clamp(300px, 80%, 1300px);
     gap: 2rem;
 }
-
 .ledamot-wrapper {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row wrap;
 }
-.ledamoter {
+.ledamot-wrapper .rubrik {
+    gap: 2rem;
+}
+.ledamot-wrapper .ledamoter {
     background-color: #D5D7D4;
     border-radius: 5px;
     padding: 1rem;
+    margin: 2rem;
+}
+.ledamoter img {
+    border-radius: 5px;
 }
