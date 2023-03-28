@@ -67,6 +67,7 @@ hr {
 
 .container-wrapper {
     display: flex;
+    flex-direction: row wrap;
     justify-content: center;
 }
 .container-wrapper .container {
