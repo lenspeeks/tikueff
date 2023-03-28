@@ -19,16 +19,16 @@ hr {
     border-radius: 5px;
 }
 
-.footer-wrapper {
-    position: static;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.footer {
+    color: white;
     margin-top: 2rem;
     width: 100%;
     padding: 0.5rem;
-    background-color: #D5D7D4;
+    background-color: #F54D2A;
     text-align: center;
+}
+.footer .social {
+    fill: white;
 }
 
 .nav-wrapper {
@@ -81,7 +81,7 @@ hr {
     padding: 1rem;
     color: white;
 }
-.container-wrapper .container .styrelsen {
+.container-wrapper .container .styrelse {
     background-color: #D5D7D4;
     border-radius: 15px;
     padding: 1rem;
@@ -145,8 +145,7 @@ hr {
     flex-direction: column;
 }
 .styrelsen-content {
-    width: 100%;
-    max-width: 1350px;
+    width: clamp(300px, 80%, 1300px);
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, auto));
