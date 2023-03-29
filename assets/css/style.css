@@ -26,6 +26,8 @@ hr {
     padding: 0.5rem;
     background-color: #F54D2A;
     text-align: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 .footer .social {
     fill: white;
