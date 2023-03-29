@@ -19,6 +19,10 @@ hr {
     border-radius: 5px;
 }
 
+iframe {
+    border-radius: 15px;
+}
+
 .footer {
     color: white;
     margin-top: 2rem;
@@ -60,10 +64,15 @@ hr {
 .nav-wrapper .nav .menu .link:hover {
     color: #F54D2A;
     fill: #F54D2A;
+    transform: translateY(-10px);
 }
 .nav-wrapper .nav .menu .link-selected {
     color: #F54D2A;
     font-weight: 700;
+    transition: .4s ease;
+}
+.nav-wrapper .nav .menu .link-selected:hover {
+    transform: translateY(-10px);
 }
 
 .container-wrapper {
@@ -94,7 +103,7 @@ hr {
     justify-content: center;
 }
 .event-wrapper .calendar {
-    background-color: #DFBE8B;
+    background-color: #dfbd8bca;
     border-radius: 15px;
     padding: 1rem;
     width: clamp(300px, 80%, 1300px);
@@ -109,7 +118,7 @@ hr {
 }
 
 .event-wrapper .calendar .events .box a {
-    background:#D5D7D4;
+    background:white;
     color: black;
     padding: 1rem;
     padding-top: 5px;
@@ -147,7 +156,7 @@ hr {
     flex-direction: column;
 }
 .styrelsen-content {
-    width: clamp(300px, 80%, 1300px);
+    width: clamp(300px, 80%, 750px);
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, auto));
@@ -167,6 +176,8 @@ hr {
     background-color: #D5D7D4;
     border-radius: 15px;
     transition: all .4s ease;
+    margin: 2rem;
+    width: 200px;
 }
 .lada h3 {
     font-weight: 800;
