@@ -23,6 +23,28 @@ iframe {
     border-radius: 15px;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 50%;
+}
+   
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #f54c2aae; 
+    border-radius: 20px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background: #F54D2A; 
+}
+
 .footer {
     color: white;
     margin-top: 2rem;
