@@ -134,7 +134,8 @@ iframe {
 }
 .event-wrapper .calendar .events {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .event-wrapper .calendar .events .box {
     padding: 1rem;
