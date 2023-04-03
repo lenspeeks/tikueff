@@ -97,28 +97,29 @@ iframe {
     transform: translateY(-5px);
 }
 
-.container-wrapper {
+
+.container-wrapper .container {
+    width: clamp(300px 80% 1300px);
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: center;
-}
-.container-wrapper .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: clamp(300px, 80%, 1300px);
     gap: 2rem;
+    margin: 2rem;
 }
 .container-wrapper .container .info {
     background-color: #F54D2A;
-    border-radius: 15px;
-    padding: 1rem;
     color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 35%;
 }
 .container-wrapper .container .styrelse {
     background-color: #D5D7D4;
-    border-radius: 15px;
     padding: 1rem;
+    border-radius: 15px;
+    width: 34%;
+    min-inline-size: 34%;
 }
 
 .event-wrapper {
