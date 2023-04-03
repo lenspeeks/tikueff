@@ -86,7 +86,7 @@ iframe {
 .nav-wrapper .nav .menu .link:hover {
     color: #F54D2A;
     fill: #F54D2A;
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 .nav-wrapper .nav .menu .link-selected {
     color: #F54D2A;
@@ -94,12 +94,13 @@ iframe {
     transition: .4s ease;
 }
 .nav-wrapper .nav .menu .link-selected:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }
 
 .container-wrapper {
     display: flex;
-    flex-direction: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .container-wrapper .container {
@@ -178,11 +179,13 @@ iframe {
     flex-direction: column;
 }
 .styrelsen-content {
-    width: clamp(300px, 80%, 750px);
+    width: clamp(300px, 80%, 1350px);
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 2rem;
     text-align: center;
     margin-top: 4rem;
@@ -194,12 +197,11 @@ iframe {
     margin-bottom: 15px;
 }
 .lada {
-    padding: 16px;
+    padding: 15px;
     background-color: #D5D7D4;
     border-radius: 15px;
-    transition: all .4s ease;
-    margin: 2rem;
     width: 200px;
+    height: 350px;
 }
 .lada h3 {
     font-weight: 800;
@@ -208,7 +210,4 @@ iframe {
 .lada h5 {
     font-weight: 800;
     margin-bottom: 15px;
-}
-.lada:hover {
-    transform: translateY(-10px);
 }
