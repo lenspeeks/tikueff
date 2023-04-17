@@ -19,6 +19,6 @@
     background-color: #D5D7D4;
     padding: 1rem;
     border-radius: 15px;
-    width: 500px;
-    
+    width: 450px;
+    min-height: 500px;
 }
