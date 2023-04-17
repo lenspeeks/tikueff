@@ -1,0 +1,24 @@
+/*Medlemssida*/
+.container-wrapper .container {
+    width: clamp(300px 80% 1300px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+.container-wrapper .container .info {
+    background-color: #F54D2A;
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 600px;
+}
+.container-wrapper .container .styrelse {
+    background-color: #D5D7D4;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 500px;
+    
+}
