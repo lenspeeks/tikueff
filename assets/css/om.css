@@ -8,7 +8,7 @@
     border-radius: 15px;
     padding: 1rem;
     color:white;
-    width: clamp(300px, 80%, 1300px);
+    width: 1150px;
     gap: 2rem;
 }
 
