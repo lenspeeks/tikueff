@@ -74,18 +74,24 @@ iframe {
 .nav-wrapper .nav .menu .link {
     color: black;
     font-weight: 700;
-    transition: .4s ease;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
 }
 .nav-wrapper .nav .menu .link:hover {
-    color: #F54D2A;
-    fill: #F54D2A;
-    transform: translateY(-5px);
-}
-.nav-wrapper .nav .menu .link-selected {
-    color: #F54D2A;
-    font-weight: 700;
+    background: #d5d7d4;
+    color: black;
+    fill: black;
     transition: .4s ease;
 }
-.nav-wrapper .nav .menu .link-selected:hover {
-    transform: translateY(-5px);
+.nav-wrapper .nav .menu .link-selected {
+    color: white;
+    background: #F54D2A;
+    font-weight: 700;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    transition: .4s ease;
 }
