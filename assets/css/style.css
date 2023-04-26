@@ -55,23 +55,23 @@ iframe {
 .nav-wrapper {
     margin-top: 2rem;
 }
-.nav-wrapper .nav {
+.nav-wrapper nav {
     width: clamp(300px, 80%, 1300px);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-wrapper .nav .logo {
+.nav-wrapper nav .logo {
     display: flex;
     height: 10rem;
 }
-.nav-wrapper .nav .menu {
+.nav-wrapper nav .menu {
     display: flex;
     align-items: center;
     gap: 2rem;
 }
-.nav-wrapper .nav .menu .link {
+.nav-wrapper nav .menu .link {
     color: black;
     font-weight: 700;
     padding: 5px;
@@ -79,13 +79,13 @@ iframe {
     padding-right: 10px;
     border-radius: 20px;
 }
-.nav-wrapper .nav .menu .link:hover {
+.nav-wrapper nav .menu .link:hover {
     background: #d5d7d4;
     color: black;
     fill: black;
     transition: .4s ease;
 }
-.nav-wrapper .nav .menu .link-selected {
+.nav-wrapper nav .menu .link-selected {
     color: white;
     background: #F54D2A;
     font-weight: 700;
@@ -94,4 +94,88 @@ iframe {
     padding-right: 10px;
     border-radius: 20px;
     transition: .4s ease;
+}
+/*Mobil meny*/
+.mobile-wrapper image {
+    height: 1rem;
+}
+
+.hamburger-icon {
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+  
+.hamburger-icon div {
+    width: 35px;
+    height: 5px;
+    background-color: #F54D2A;
+    border-radius: 15px;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px);
+}
+  
+.open .bar2 {
+    opacity: 0;
+}
+  
+.open .bar3 {
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px);
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+  
+ul a {
+    color: black;
+}
+  
+ul li {
+    padding: 5px;
+    margin-left: 10px;
+}
+  
+ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.mobile-menu {
+    display: none;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+  
+.open .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+  
+.mobile-menu li {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-wrapper nav {
+      display: none;
+    }
+  
+    .hamburger-icon {
+      display: block;
+    }
 }
