@@ -57,3 +57,9 @@
     background-color: #F54D2A;
     color: #D5D7D4;
 }
+
+@media only screen and (max-width: 600px) {
+    .event-wrapper .calendar {
+        width: 80%;
+    }
+}
