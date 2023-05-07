@@ -1,11 +1,10 @@
-/*Medlemssida*/
 .container-wrapper .container {
     width: clamp(300px 80% 1300px);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 2rem;
     margin: 2rem;
 }
 .container-wrapper .container .info {
@@ -13,12 +12,18 @@
     color: white;
     padding: 1rem;
     border-radius: 15px;
-    width: 600px;
+    width: 1150px;
 }
-.container-wrapper .container .styrelse {
+iframe {
+    min-height: 500px;
+    width: 100%;
+    min-height: 650px;
+}
+
+.container-wrapper .container .lådan {
     background-color: #D5D7D4;
     padding: 1rem;
     border-radius: 15px;
-    width: 450px;
+    width: 80%;
     min-height: 500px;
 }
