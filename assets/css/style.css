@@ -97,11 +97,14 @@ iframe {
 }
 /*Mobil meny*/
 .mobile-wrapper img {
-    width: 5rem;
+    padding-top: 1rem;
+    width: 8rem;
     z-index: 2;
 }
 .mobile-wrapper {
     margin: 2rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
     display: flex;
     justify-content: space-between;
 }
