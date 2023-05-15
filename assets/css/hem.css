@@ -1,21 +1,21 @@
-/*Startsida*/
-.container-wrapper .container {
-    width: clamp(300px 80% 1300px);
+/* STARTSIDA */
+.container { /*definerar bredd, gap, marginaler och flex-egenskaper*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    width: clamp(300px 80% 1300px);
     gap: 50px;
     margin: 2rem;
 }
-.container-wrapper .container .info {
+.container .info {
     background-color: #F54D2A;
     color: white;
     padding: 1rem;
     border-radius: 15px;
     width: 700px;
 }
-.container-wrapper .container .styrelse {
+.container .styrelse {
     background-color: #D5D7D4;
     padding: 1rem;
     border-radius: 15px;
@@ -23,8 +23,8 @@
 }
 
 .event-wrapper {
-    display: flex;
-    justify-content: center;
+    display: flex; /*definerar att detta är en flex container*/
+    justify-content: center; /*placerar innehållet i av containern i mitten*/
 }
 .event-wrapper .calendar {
     background-color: #dfbd8bca;
@@ -34,9 +34,9 @@
     gap: 2rem;
 }
 .event-wrapper .calendar .events {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: flex; /*definerar att detta är en flex container*/
+    flex-direction: row; /*div:arna inuti containern lägger sig på rad*/
+    flex-wrap: wrap; /*om antalet div:ar når kanterna av div:en så skapas en ny rad*/
 }
 .event-wrapper .calendar .events .box {
     padding: 1rem;
@@ -50,15 +50,15 @@
     padding-bottom: 5px;
     margin-top: 1rem;
     border-radius: 5px;
-    transition: .4s ease;
+    transition: .4s ease; /*övergången ease kommer att ta .4s*/
 }
 .event-wrapper .calendar .events .box a:hover {
     background-color: #F54D2A;
     color: #D5D7D4;
 }
 
-@media only screen and (max-width: 600px) {
-    .event-wrapper .calendar {
+@media only screen and (max-width: 600px) { /*checkar om enheten som öppnat sidan är mindre än 600px*/
+    .event-wrapper .calendar { /*om svaret är ja, förändra bredden på classen calendar till 80%*/
         width: 80%;
     }
 }

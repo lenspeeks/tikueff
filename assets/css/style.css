@@ -1,4 +1,6 @@
-/*Standarder*/
+/*STANDARDER*/
+/* ICONER: https://iconify.design/ */
+
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 * {
     font-family: 'Cairo', sans-serif;
@@ -28,15 +30,12 @@ iframe {
 ::-webkit-scrollbar {
     width: 7px;
 }
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 50%;
-}
 ::-webkit-scrollbar-thumb {
     background: #F54D2A; 
     border-radius: 20px;
 }
 
+/* Universiell footer */
 .footer {
     color: white;
     margin-top: 2rem;
@@ -51,7 +50,7 @@ iframe {
     fill: white;
 }
 
-/*Navigatoionsmenyn*/
+/* Navigatoionsmenyn */
 .nav-wrapper {
     margin-top: 2rem;
 }
