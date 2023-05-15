@@ -30,7 +30,6 @@
     background-color: #dfbd8bca;
     border-radius: 15px;
     padding: 1rem;
-    /*width: clamp(80%, 1150px);*/
     width: 1150px;
     gap: 2rem;
 }
