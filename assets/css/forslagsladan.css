@@ -1,5 +1,5 @@
 /* FÖRSLAGSLÅDAN */
-.container {
+.container { /*Flex container, bestämmer margin och gaps*/
     width: clamp(300px 80% 1300px);
     display: flex;
     flex-direction: row;
@@ -8,15 +8,14 @@
     gap: 2rem;
     margin: 2rem;
 }
-.container .info {
+.container .ram { /*Låd-ram - bakgrundsfärg, textfärg, padding, rundade hörn & bredd*/
     background-color: #F54D2A;
     color: white;
     padding: 1rem;
     border-radius: 15px;
     width: 1150px;
 }
-iframe {
-    min-height: 500px;
+iframe { /*Länk-rutan - minimun-höjd & bredd*/
     width: 100%;
     min-height: 650px;
 }
