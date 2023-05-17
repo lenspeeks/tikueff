@@ -61,4 +61,11 @@
     .event-wrapper .calendar { /*om svaret är ja, förändra bredden på classen calendar till 80%*/
         width: 80%;
     }
+
+    .container .info {
+        width: 90%;
+    }
+    .container .styrelse {
+        width: 90%;
+    }
 }
