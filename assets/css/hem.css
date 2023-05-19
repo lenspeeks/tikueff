@@ -59,13 +59,13 @@
 
 @media only screen and (max-width: 600px) { /*checkar om enheten som öppnat sidan är mindre än 600px*/
     .event-wrapper .calendar { /*om svaret är ja, förändra bredden på classen calendar till 80%*/
-        width: 80%;
+        width: 85%;
     }
 
     .container .info {
-        width: 90%;
+        width: 95%;
     }
     .container .styrelse {
-        width: 90%;
+        width: 95%;
     }
 }
