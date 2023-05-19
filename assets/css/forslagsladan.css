@@ -19,3 +19,28 @@ iframe { /*Länk-rutan - minimun-höjd & bredd*/
     width: 100%;
     min-height: 650px;
 }
+.container .suggestion {
+    display: none;
+    background-color: #F54D2A;
+    color: white;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 1150px;
+}
+.container .suggestion a {
+    background:white;
+    color: black;
+    padding: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    transition: .4s ease; /*övergången ease kommer att ta .4s*/
+}
+
+@media only screen and (max-width: 600px) {
+    .container .suggestion {
+        display: inline;
+    }
+    .container .ram {display: none;}
+}

@@ -25,6 +25,8 @@
 .event-wrapper {
     display: flex; /*definerar att detta är en flex container*/
     justify-content: center; /*placerar innehållet i av containern i mitten*/
+    width: clamp(300px 80% 1300px);
+    margin: 2rem;
 }
 .event-wrapper .calendar {
     background-color: #dfbd8bca;
@@ -55,17 +57,4 @@
 .event-wrapper .calendar .events .box a:hover {
     background-color: #F54D2A;
     color: #D5D7D4;
-}
-
-@media only screen and (max-width: 600px) { /*checkar om enheten som öppnat sidan är mindre än 600px*/
-    .event-wrapper .calendar { /*om svaret är ja, förändra bredden på classen calendar till 80%*/
-        width: 85%;
-    }
-
-    .container .info {
-        width: 95%;
-    }
-    .container .styrelse {
-        width: 95%;
-    }
 }

@@ -15,10 +15,30 @@
     border-radius: 15px;
     width: 600px;
 }
+.container .info .link a {
+    display: none;
+    background:white;
+    color: black;
+    padding: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    transition: .4s ease;
+}
 .container .ansokan { /*Ansökningsruta - bakgrundsfärg, padding, rundade hörn, bredd, minimum-höjd*/
     background-color: #D5D7D4;
     padding: 1rem;
     border-radius: 15px;
     width: 450px;
     min-height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container .info .link a {
+        display: inline;
+    }
+    .container .ansokan {
+        display: none;
+    }
 }
