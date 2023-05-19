@@ -58,3 +58,11 @@
     background-color: #F54D2A;
     color: #D5D7D4;
 }
+.event-wrapper .calendar .events .box .block {
+    background-color: #D5D7D4;
+    border-radius: 5px;
+    padding: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: not-allowed;
+}

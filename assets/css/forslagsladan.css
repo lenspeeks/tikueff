@@ -42,5 +42,7 @@ iframe { /*Länk-rutan - minimun-höjd & bredd*/
     .container .suggestion {
         display: inline;
     }
-    .container .ram {display: none;}
+    .container .ram {
+        display: none;
+    }
 }
