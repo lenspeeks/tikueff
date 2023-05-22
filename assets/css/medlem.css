@@ -13,8 +13,9 @@
     color: white;
     padding: 1rem;
     border-radius: 15px;
-    width: 600px;
+    width: 575px;
 }
+/*Länk-knapp*/
 .container .info .link a {
     display: none;
     background:white;
@@ -26,11 +27,12 @@
     border-radius: 5px;
     transition: .4s ease;
 }
+/*Ansökningsruta (Ej synlig på mobil)*/
 .container .ansokan { /*Ansökningsruta - bakgrundsfärg, padding, rundade hörn, bredd, minimum-höjd*/
     background-color: #D5D7D4;
     padding: 1rem;
     border-radius: 15px;
-    width: 450px;
+    width: 525px;
     min-height: 500px;
 }
 

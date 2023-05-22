@@ -8,6 +8,7 @@
     gap: 50px;
     margin: 2rem;
 }
+/*Inforuta*/
 .container .info {
     background-color: #F54D2A;
     color: white;
@@ -15,6 +16,7 @@
     border-radius: 15px;
     width: 700px;
 }
+/*Styrelse-ruta*/
 .container .styrelse {
     background-color: #D5D7D4;
     padding: 1rem;
@@ -22,6 +24,7 @@
     width: 400px;
 }
 
+/*Evenemangskalender*/
 .event-wrapper {
     display: flex; /*definerar att detta är en flex container*/
     justify-content: center; /*placerar innehållet i av containern i mitten*/
@@ -44,6 +47,7 @@
     padding: 1rem;
 }
 
+/*"Läs mer"-knappar*/
 .event-wrapper .calendar .events .box a {
     background:white;
     color: black;
@@ -58,6 +62,7 @@
     background-color: #F54D2A;
     color: #D5D7D4;
 }
+/*"Mer info snart"-knappar*/
 .event-wrapper .calendar .events .box .block {
     background-color: #D5D7D4;
     border-radius: 5px;
@@ -65,4 +70,10 @@
     padding-top: 5px;
     padding-bottom: 5px;
     cursor: not-allowed;
+}
+
+@media only screen and (max-width: 600px) {
+    .container .styrelse { /*Ökar bredden på rutan till max när sidan visas på mobil*/
+        width: 100%;
+    }
 }

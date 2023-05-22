@@ -8,6 +8,7 @@
     gap: 2rem;
     margin: 2rem;
 }
+/*Iframe ram (Ej mobil)*/
 .container .ram { /*Låd-ram - bakgrundsfärg, textfärg, padding, rundade hörn & bredd*/
     background-color: #F54D2A;
     color: white;
@@ -19,6 +20,7 @@ iframe { /*Länk-rutan - minimun-höjd & bredd*/
     width: 100%;
     min-height: 650px;
 }
+/*Inforuta (Endast mobil)*/
 .container .suggestion {
     display: none;
     background-color: #F54D2A;
@@ -27,6 +29,7 @@ iframe { /*Länk-rutan - minimun-höjd & bredd*/
     border-radius: 15px;
     width: 1150px;
 }
+/*Länk-knapp*/
 .container .suggestion a {
     background:white;
     color: black;
