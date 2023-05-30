@@ -23,6 +23,11 @@
     border-radius: 15px;
     width: 400px;
 }
+.container .styrelse a {
+    text-decoration: underline;
+    font-weight: 700;
+    color: black;
+}
 
 /*Evenemangskalender*/
 .event-wrapper {
